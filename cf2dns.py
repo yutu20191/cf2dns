@@ -21,7 +21,7 @@ KEY = "6NSkOoC4Yo0E"
 #CM:移动 CU:联通 CT:电信
 #修改需要更改的dnspod域名核子域名
 DOMAINS = {
-    "hostmonit.com": {"ddns": ["CM","CU","CT"]}
+    "mohanetworks.xyz": {"ddns": ["CM","CU","CT"]}
  }
 
 #解析生效条数 免费的DNSPod相同线路最多支持2条解析
@@ -36,7 +36,7 @@ TTL = 600
 #API 密钥
 #腾讯云后台获取 https://console.cloud.tencent.com/cam/capi
 #阿里云后台获取 https://help.aliyun.com/document_detail/53045.html?spm=a2c4g.11186623.2.11.2c6a2fbdh13O53  注意需要添加DNS控制权限 AliyunDNSFullAccess
-SECRETID = ' AKIDFI5brqZ0B5pJWS6UbR0JL6aolRqypPij '
+SECRETID = 'AKIDFI5brqZ0B5pJWS6UbR0JL6aolRqypPij '
 SECRETKEY = 'mHVS9ZiaBVYKq65nDNGsDH4ajcEafU2J'
 
 log_cf2dns = Logger('cf2dns.log', level='debug') 
